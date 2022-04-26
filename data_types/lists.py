@@ -1,5 +1,9 @@
-from bitarray import test
+elements = ["val", "var", "it", 3, 0, 0.5, ["a", "b"]]
 
+print(f"the upper 1th element of my list is {elements[0].upper()}")
+
+
+##
 
 test_string = """
 Hey little girl is your daddy home
@@ -19,20 +23,12 @@ middle of my head
 Only you can cool my desire
 I'm on fire"""
 
-##
+song_list = []
+for item in (" ".join(test_string.split())).split():
+    song_list.append(item)
 
-upper_string = test_string.upper()
+print(sorted(set(song_list)))
 
-lower_string = test_string.lower()
+print(len(set(song_list)))
 
-title_string = test_string.title()
-
-strip_string = test_string.strip()
-
-replace_string = test_string.replace(" ", "")  # this remove all white spaces
-
-print(
-    " ".join(test_string.split())
-)  # this is great for removing white spaces, escape characteres, etc
-
-# import this
+print(len(song_list))
