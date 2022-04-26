@@ -32,3 +32,10 @@ print(sorted(set(song_list)))
 print(len(set(song_list)))
 
 print(len(song_list))
+
+
+print("\n \n")
+
+squares = [i ** 2 for i in range(1, 10)]
+
+print(squares)
