@@ -1,4 +1,3 @@
-from bitarray import test
 
 
 test_string = """
