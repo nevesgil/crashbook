@@ -1,5 +1,3 @@
-
-
 test_string = """
 Hey little girl is your daddy home
 Did he go away and leave you all alone

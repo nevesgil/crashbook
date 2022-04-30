@@ -1,6 +1,3 @@
-from asyncore import poll
-
-
 responses = {}
 
 polling_active = True

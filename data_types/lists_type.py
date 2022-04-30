@@ -36,10 +36,9 @@ print(len(song_list))
 
 print("\n \n")
 
-squares = [i ** 2 for i in range(1, 10)]
+squares = [i**2 for i in range(1, 10)]
 
 print(squares)
 
 
 print("blablabla" in song_list)
-
