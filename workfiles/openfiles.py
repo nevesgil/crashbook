@@ -1,3 +1,6 @@
+import json
+
+
 def read_all_file(path_file):
     with open(path_file) as file_object:
         contents = file_object.read()
@@ -54,6 +57,7 @@ def files_properties(files_paths):
         print(f"number of words in {file}: {num_words}")
 
 
-files_paths = ["workfiles/hamlet.txt", "workfiles/divinecomedy_paradise.txt"]
-
-files_properties(files_paths)
+def json_read(file_path):
+    with open(file_path) as file_object:
+        file = json.load(file_object)
+    return file
